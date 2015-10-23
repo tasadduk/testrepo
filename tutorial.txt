@@ -1,0 +1,44 @@
+Git Tutorial
+
+- git config --list				# show git configuration
+
+- git init						# initialize a repo on the current directory
+
+- git status					# gives current status
+
+- git add filename				# add a new file
+- git add .						# add all new files from the directory
+- git add *.txt					# add all .txt files from the directory
+- git add -u filename			# updates tracking for files that changed names or deleted
+- git add -A 					# does both add + update
+
+- git commit -m "message"		# commit changes (locally)
+
+- git push						# push changes to the remote directory
+
+- git log						# print log
+
+
+Brances
+--------
+Branches are basically a new version of the same repo, usually used for editing/debugging.
+The main branch is referred to as the "master". All subsequent branches are to be created.
+
+- git checkout -b branchname	# create a new branch
+
+- git branch 					# see what branch you are on
+
+- git checkout master 			# switch back to the master branch
+
+
+
+Git ignore file
+----------------
+
+
+Remote Repos
+------------
+
+- git clone repoURL				# clone a repo on the current directory
+
+- git remote

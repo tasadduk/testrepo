@@ -1,4 +1,6 @@
 Git Tutorial
+-------------
+by Tasadduk Chowdhury
 
 - git config --list				# show git configuration
 

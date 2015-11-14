@@ -5,6 +5,7 @@ by Tasadduk Chowdhury
 - git config --list				# show git configuration
 
 - git init						# initialize a repo on the current directory
+- git init projName				# initialize a repo called projName
 
 - git status					# gives current status
 
@@ -13,12 +14,24 @@ by Tasadduk Chowdhury
 - git add *.txt					# add all .txt files from the directory
 - git add -u filename			# updates tracking for files that changed names or deleted
 - git add -A 					# does both add + update
+- git rm --cached files 		# remove a file from the staging area (before commit)
 
 - git commit -m "message"		# commit changes (locally)
+- git commit -a -m "message"	# add all files, then commit changes (locally)
 
-- git push						# push changes to the remote directory
+- git diff						# view differences
+- git diff --cached 			# view differences in staging
+
+- git push	origin master		# push changes to the remote directory
 
 - git log						# print log
+- git log -oneline				# print log, compressed
+
+
+Notes
+-----
+- always add files before commits
+
 
 
 Brances

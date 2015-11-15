@@ -1,0 +1,231 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[margin,line,10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage[none]{hyphenat}
+\usepackage{anysize}
+
+\marginsize{.6in}{2in}{.5in}{1.2in} %left,right,top,bottom
+
+
+
+%\topmargin=-0.6in
+%\oddsidemargin=-.5in %left side
+%\evensidemargin=-.5in %right side
+%\textwidth=6in
+
+%\itemsep=0in
+%\parsep=0in
+
+\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+\renewcommand{\familydefault}{\sfdefault}
+\normalfont % this is required for the change to take effect
+
+\usepackage{fancyhdr}
+%\setlength{\textwidth}{5.3in} % Text width of the document
+\renewcommand{\headrulewidth}{0pt} %remove horizontal rule
+%\cfoot{\thepage\ of \pageref{LastPage}}
+\cfoot{\hfill Page \thepage\ of 2 \hfill \textit{T. Chowdhury}}
+
+\begin{document}
+\pagestyle{fancy}
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\moveleft.5\hoffset\centerline{\Large\bf Tasadduk Chowdhury} % Your name at the top
+\vspace{8pt}
+
+%\moveleft\hoffset\vbox{\hrule width\resumewidth height .7pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+
+%\moveleft.5\hoffset\centerline{Status: \textbf{US Citizen} \hfill 7215 Spring Cypress Rd, \#\ 821}
+%\moveleft.5\hoffset\centerline{tchowdhury@uh.edu \hfill Spring, TX 77379}
+
+\moveleft.5\hoffset\centerline{
+tchowdhury@uh.edu \hfill   \hfill 
+(713) 498-9788 \hfill  \hfill 
+U.S. Citizen \hfill  \hfill 
+Spring, TX 77379}
+
+
+
+%----------------------------------------------------------------------------------------
+
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{OBJECTIVE}  
+Seeking a Summer Research Intern position at Quantlab Financial.
+
+\section{SUMMARY} 
+\begin{itemize}[leftmargin=12pt] \itemsep -1pt 
+\item PhD candidate in Applied Mathematics. Experienced in computed tomography, image and signal processing, numerical methods, and machine learning.
+\item 7 years of programming experience in C/ C++ and MATLAB. Working knowledge of Unix/Linux operating systems. Strong background in object oriented programming and data structures.
+\item Collaborated with a team of multidisciplinary researchers and solved a medical problem.
+\item Demonstrated exceptional leadership skills by training students to write codes in MATLAB.
+%\item Excellent verbal and written communication skills. 
+\item Ability to give technical presentations at seminars and workshops.
+%\item Outstanding presentation skills. Selected as the winner of the Graduate Student Research Presentation Competition in 2015.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{EDUCATION}
+{University of Houston, Houston, TX}
+\\*[2pt]
+{\bf Doctorate in Applied Mathematics}, GPA: 3.76/4.0 \hfill {\em Expected in May 2016} \\ 
+Dissertation: Region-of-interest reconstruction algorithms in X-ray CT imaging. 
+ \\*[5pt]
+{\bf Master of Science in Applied Mathematics}, GPA: 3.72/4.0 \hfill {\em August 2012} 
+ \\*[5pt]
+{\bf Bachelor of Science in Mathematics}, Major GPA: 3.4/4.0  \hfill {\em August 2009} \\
+Minor: \textbf{Computer Science}
+
+\section{RELEVANT COURSES} 
+Probability Theory, 
+Statistical Analysis, 
+Machine Learning, 
+Stochastic Processes, 
+Data Scientist's Toolbox,
+R Programming,
+Numerical Analysis, 
+Mathematics in Medical Imaging,
+Medical Imaging Physics, 
+Differential Equations, 
+Partial Differential Equations,
+Wavelets and Compressed Sensing,
+Data Structures, 
+Scientific Computing, 
+%Information Theory 
+%Internet Computing, 
+%Computer Graphics, 
+
+\section{COMPUTER SKILLS} 
+
+{\bf Programming:}  C/C++, MATLAB, Python, R, Shell Scripting, SQL \\
+{\bf Operating System:} Unix/Linux, Mac OS, Windows \\
+{\bf Publishing:}  HTML, CSS, \LaTeX \\
+{\bf Software:} Excel, Visual Studio, GCC, Mathematica, Inkscape \\
+{\bf Other:} Parallel Computing, Github
+
+\section{PROJECT EXPERIENCE}
+\textbf{Algorithms in Computed Tomography} \hfill {\em Fall 2012 - Spring 2015} \\
+University of Houston, Houston, TX
+\begin{itemize}[leftmargin=12pt] \itemsep -2pt
+%\item Constructed numerical methods for accurate CT image reconstruction with novel geometries using localized X-ray scans for dose-reduction.
+\item Derived a novel reconstruction method in X-ray CT to reduce the overall radiation exposure by localizing the X-rays and using wavelets based regularization.
+\item Developed integrated codes in C/C++ and MATLAB using parallel computing techniques for both simulation of X-ray data acquisition and 3D image reconstruction.
+\item Reduced 75\% of computation time by executing codes on a high performance computing cluster.
+\end{itemize}
+
+{\bf Automated Surgical Planning in Dentistry} \hfill {\em Summer 2012 - Spring 2013} \\
+Houston Methodist \&\ University of Houston, Houston, TX
+\begin{itemize}[leftmargin=12pt] \itemsep -2pt
+\item Collaborated with a diverse team of mathematicians and medical scientists.
+\item Developed an algorithm to assist doctors in surgical planning using principal component analysis (PCA) and mathematical optimization.
+\item Implemented C++ and MATLAB, and validated on real data sets from patients.
+\end{itemize}
+
+\textbf{3D Object Recognition} \hfill {\em Spring 2014} \\
+University of Houston, Houston, TX
+\begin{itemize}[leftmargin=12pt] \itemsep -2pt
+\item Implemented codes to solve the 3D object recognition problem using various machine learning methods including kernel PCA, SVM, KNN.
+\item Verified algorithm using open image databases including COIL-100 and CALTECH.
+\item Presented methods and results at the Machine Learning Workshop on campus.
+\end{itemize}
+
+\newpage
+{\bf Digital Image Processing} (Master's Research)\hfill {\em Fall 2011 - Spring 2012} \\
+University of Houston, Houston, TX
+\begin{itemize}[leftmargin=12pt] \itemsep -2pt
+\item Studied image processing methods based on mathematical morphology.
+\item Implemented algorithms for noise removal, edge detection, and pattern matching.
+\item Developed codes in C and MATLAB, and tested on a large set of 2D and 3D images.
+\end{itemize}
+
+\section{LEADERSHIP EXPERIENCE}
+
+{\bf Graduate Teaching Assistant \& Tutor} \hfill {\em Fall 2011 - Present} \\
+University of Houston, Houston, TX
+\begin{itemize}[leftmargin=12pt] \itemsep -2pt % Reduce space between items
+\item Conduct calculus recitations in a classroom of 60 students.
+\item Grade homework and exams for math courses including calculus, probability and statistics, differential equations, and complex analysis.
+\item Provide one-on-one tutoring to students at the math tutoring center on campus.
+\end{itemize}
+
+{\bf Instructor of Linear Algebra} \hfill {\em Fall 2014, Fall 2015} \\
+University of Houston, Houston, TX
+\begin{itemize}[leftmargin=12pt] \itemsep -2pt
+\item Teach junior level linear algebra for a class of 70 students.
+\item Design course syllabus and prepare homework, quizzes, and exams.
+\item Train students to use MATLAB to solve numerical problems.
+\end{itemize}
+
+
+%\section{WORK EXPERIENCE}
+
+%{\bf Shift Manager} \hfill {\em July 2004 - May 2011} \\
+%Jack In The Box, Houston, TX
+
+%\begin{itemize} \itemsep -2pt % Reduce space between items
+%\item Provided customer service, created schedules, and helped in hiring of new employees.
+%\item Trained new employees effectively on food safety, cash handling procedures, and point of sales system.
+%\item Completed training on food safety and received certificate of achievements from the National Restaurant Association Educational Foundation.
+%\end{itemize}
+ 
+%\section{PRESENTATIONS}
+
+\section{AWARDS \& FELLOWSHIPS} 
+Student Travel Grant - 13th Fully 3D Meeting, {\em June 2015} \\
+Best Graduate Student Research Presentation Award, {\em May 2015} \\
+Doctoral Student Tuition Fellowship, {\em August 2013} \\
+Graduate Assistant Teaching Fellowship, {\em August 2011}
+
+\section{PUBLICATIONS}
+``An iterative algorithm for region-of-interest reconstruction with cone-beam acquisitions on a generic source trajectory'', \textbf{T. Chowdhury}, A. Sen, R. Azencott. Proc of 13th Fully 3D Meeting, 2015.
+
+``Region-of-interest reconstructions from truncated 3D x-ray projections'', R. Azencott, B. G. Bodmann, \textbf{T. Chowdhury}, D. Labate, A. Sen, and D. Vera. (to be submitted).
+
+
+\section{ACTIVITIES} 
+{\bf President,} UH SIAM Student Chapter \hfill {\em Fall 2015 - Present} \\
+{\bf Vice President,} UH SIAM Student Chapter \hfill {\em Fall 2014 - Spring 2015} \\
+{\bf Webmaster,} UH SIAM Student Chapter \hfill {\em Fall 2014 - Present} \\
+Imaging Research Meeting, University of Houston \hfill {\em Fall 2012} \\
+Society for Industrial and Applied Mathematics (SIAM) \hfill {\em Fall 2011 - Present} \\
+American Mathematical Society (AMS) \hfill {\em Fall 2011 - Present}
+
+%----------------------------------------------------------------------------------------
+
+\end{resume}
+\end{document}
